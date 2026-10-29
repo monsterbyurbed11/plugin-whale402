@@ -1,0 +1,37 @@
+{
+  "name": "plugin-whale402",
+  "version": "1.0.0",
+  "description": "ElizaOS plugin for Smart Money whale tracking, Dev Cabal / Sybil cluster audits, and wallet copy-trade profiler on Base, Solana, and Ethereum.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "elizaos",
+    "elizaos-plugin",
+    "ai-agents",
+    "smart-money",
+    "whale-tracker",
+    "cabal-detector",
+    "sybil-detection",
+    "base",
+    "solana",
+    "crypto-trading",
+    "trading-bot"
+  ],
+  "author": "monsterbyurbed11",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
